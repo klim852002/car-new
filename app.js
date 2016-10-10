@@ -1,3 +1,4 @@
+
 var fromCar = require('./car')
 
 var yellowCar = new fromCar('yellow', true)
@@ -14,3 +15,8 @@ yellowCar.setColor('black')
 console.log('yellowCar new color is ' + yellowCar.color)
 
 console.log('yellow car is' + yellowCar.convertible)
+
+yellowCar.stopNow();
+console.log(yellowCar.speed);
+
+console.log(yellowCar.convertible);
